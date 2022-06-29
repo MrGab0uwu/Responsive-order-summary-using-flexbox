@@ -4,6 +4,7 @@
   --bright-blue:#3829e0;
   --very-pale-blue: #f5f7ff;
   --desaturated-blue:#7280a7;
+  --desaturated-bright-blue:#766CF1;
   --dark-blue:#1f2f56;
 }
 
@@ -146,7 +147,7 @@ h1{
 }
 
 .membership a:active{
-  color: var(--desaturated-blue);
+  color: var(--desaturated-bright-blue);
 }
 
 .membership a:visited{
@@ -179,7 +180,7 @@ h1{
 }
 
 .button-cta.btn-pay:active{
-  background-color: var(--desaturated-blue);
+  background-color: var(--desaturated-bright-blue);
   color: var(--very-pale-blue);
 }
 
